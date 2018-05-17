@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/green2"
+    tools:context=".RegisterOne">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginTop="25dp"
+        android:hint="Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etpasscnfm"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:hint="Conform Password"
+        android:inputType="textPassword" />
+
+
+    <EditText
+        android:id="@+id/etcity"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:hint="City"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/butsign"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:text="Sign Up"
+        android:padding="10dp"
+        android:textColor="@color/colorAccent"
+        android:background="#EECCFF"/>
+
+    <Button
+        android:id="@+id/butcnl"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+
+        android:text="Cancel"
+        android:ems="10"
+        android:textColor="@color/colorAccent"
+        android:background="#EECCFF"/>
+
+
+</LinearLayout>
